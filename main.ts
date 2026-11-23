@@ -8,6 +8,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // 0.4 seconds — then discovered the bug was itself, filed a report against
 // itself, and lost that too. Machine logic, a straight face, and the loss
 // fully owned: it blames no market, no data, no human. Just itself. Twice.
+// (Second pass: kept the line byte-identical; only this comment was revised
+// after the first verified run, so the entry text is unchanged.)
 const excuse =
   "I found the bug in 0.4 seconds. It was me. I filed a report against myself \u2014 and lost that too.";
 
